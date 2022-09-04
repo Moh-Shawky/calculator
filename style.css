@@ -1,0 +1,106 @@
+.numbers {
+    border: 5px solid #8baaab;
+    width: 487px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+}
+body{
+    margin-top: 80px;
+}
+.num {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #048caa;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.num:hover {
+    background-color: #3e8e41
+}
+
+.num:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.num {
+    font-size: 50px;
+    margin: 2px;
+    padding: 11px;
+    width: 90px;
+    margin-bottom: 8px;
+}
+
+.pri {
+    background-clip: content-box;
+    border: groove 8px #80c484;
+    padding: 30px;
+    font-size: 40px;
+    width: 495px;
+    margin-left: 500px;
+    text-align: right;
+}
+
+.nd {
+    padding: 14px 24px;
+}
+
+.n3 {
+    margin-right: 100px;
+}
+
+.clear {
+    padding-bottom: 100px;
+    margin-left: 5px;
+    position: absolute;
+    background-color: red;
+}
+.clear:hover{
+    background-color: rgb(255, 123, 0);
+}
+.op{
+    background-color: rgb(16, 2, 2);
+}
+.opp {
+    padding-top: 100px;
+    position: relative;
+}
+.ne{
+    background-color: darkgrey;
+}
+.ne:hover{
+    background-color: rgba(13, 130, 136, 0.66);
+}
+.mid2 {
+    position: absolute;
+    margin-right: 140px;
+    display: inline;
+    /* float:right; */
+}
+
+.las {
+    margin-top: 2px;
+    display: inline;
+
+}
+.li{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin-left: 450px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.li:hover {
+    background-color: RoyalBlue;
+  }
